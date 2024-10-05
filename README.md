@@ -70,22 +70,41 @@ To run this project, you'll need the following Python packages:
 
 Below are some screenshots of the Streamlit application showcasing its user-friendly interface and features. These images highlight various functionalities, such as model selection, data augmentation, bounding box adjustments, and inference results.
 
-*Model Selection Interface*
+*Model Selection Interface using Pre-Trained Model*
 
 <p align="middle">
   <img src="pretrained.png" width="640" />
-  <img src="upload_yaml_folder.png" width="640" />
+</p>
+
+*Model Selection Interface using Custom Model*
+
+<p align="middle">
   <img src="upload_custom_model.png" width="640" />
+</p>
+
+*Model YAML & Dataset Interface*
+
+<p align="middle">
+  <img src="upload_yaml_folder.png" width="640" />
+</p>
+
+*Data Augmentation Selection*
+
+<p align="middle">
+  <img src="data_manipulation_1.png" width="640" />
 </p>
 
 *Data Augmentation Visualization*
 
 <p align="middle">
-  <img src="data_manipulation_1.png" width="640" />
   <img src="data_manipulation_2.png" width="640" />
-  <img src="data_manipulation_3.png" width="640" />
 </p>
 
+*Data Augmentation Application*
+
+<p align="middle">
+  <img src="data_manipulation_3.png" width="640" />
+</p>
 
 
 
