@@ -68,7 +68,7 @@ To run this project, you'll need the following Python packages:
 
 ## 📚 Documentation
 
-For detailed documentation, usage examples, and additional notes, refer to the .
+For a detailed demonstration and interactive usage, refer to the [YOLO-Streamlit-Pipeline-Notebook](YOLOMeetsStreamlit.ipynb) Jupyter Notebook.
 
 ## 📈 Running the Streamlit App on Google Colab
 
