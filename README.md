@@ -91,6 +91,8 @@ Localtunnel allows you to share your localhost server over the web. To install L
 Once Localtunnel is running, check the logs to retrieve the external URL. You can view the logs by running:
 
 ```python
+!streamlit run app.py &>/content/logs.txt &
+
 !cat logs.txt
 ```
 
