@@ -70,46 +70,60 @@ To run this project, you'll need the following Python packages:
 
 Below are some screenshots of the Streamlit application showcasing its user-friendly interface and features. These images highlight various functionalities, such as model selection, data augmentation, bounding box adjustments, and inference results.
 
-## *Model Selection Interface using Pre-Trained Model*
-
+### *Model Selection Interface using Pre-Trained Model*
 <p align="middle">
   <img src="pretrained.png" width="640" />
 </p>
 
-## *Model Selection Interface using Custom Model*
-
+### *Model Selection Interface using Custom Model*
 <p align="middle">
   <img src="upload_custom_model.png" width="640" />
 </p>
 
-## *Model YAML & Dataset Interface*
-
+### *Model YAML & Dataset Interface*
 <p align="middle">
   <img src="upload_yaml_folder.png" width="640" />
 </p>
 
-## *Data Augmentation Selection*
-
+### *Data Augmentation Selection*
 <p align="middle">
   <img src="data_manipulation_1.png" width="640" />
 </p>
 
-## *Data Augmentation Visualization*
-
+### *Data Augmentation Visualization*
 <p align="middle">
   <img src="data_manipulation_2.png" width="640" />
 </p>
 
-## *Data Augmentation Application*
-
+### *Data Augmentation Application*
 <p align="middle">
   <img src="data_manipulation_3.png" width="640" />
 </p>
 
+### *Training Results*
+<p align="middle">
+  <img src="trained_outputs.png" width="640" />
+</p>
 
+### *Inference Model Interface using Custom Model*
+<p align="middle">
+  <img src="inference_1.png" width="640" />
+</p>
 
+### *Inference Dataset Interface*
+<p align="middle">
+  <img src="inference_uploads.png" width="640" />
+</p>
 
+### *Inference Bounding Box Parameters Adjustment*
+<p align="middle">
+  <img src="sample_inference.png" width="640" />
+</p>
 
+### *Inference Results*
+<p align="middle">
+  <img src="inference_run.png" width="640" />
+</p>
 
 ## 📚 Documentation
 
