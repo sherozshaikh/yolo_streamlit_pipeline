@@ -125,6 +125,8 @@ your url is: https://rotten-taxes-dance.loca.lt
 - **Click on the provided URL** (e.g., `https://rotten-taxes-dance.loca.lt`).
 - A new tab will open, prompting you to enter your token.
 
+[localtunnel](localtunnel_token.png)
+
 ### Step 4: Enter the Token
 
 Input the token you retrieved earlier (e.g., `34.73.158.238`) into the prompt that appears. Once you enter the token, your Streamlit app will launch directly in the browser.
