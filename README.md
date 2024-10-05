@@ -70,9 +70,7 @@ To run this project, you'll need the following Python packages:
 
 For detailed documentation, usage examples, and additional notes, refer to the .
 
-## 🛠 Usage
-
-### 📈 Running the Streamlit App on Google Colab
+## 📈 Running the Streamlit App on Google Colab
 
 This guide will walk you through the steps to run your Streamlit app using Google Colab. By following these steps, you can easily set up your environment and access the app via a web browser.
 
@@ -125,7 +123,7 @@ your url is: https://rotten-taxes-dance.loca.lt
 - **Click on the provided URL** (e.g., `https://rotten-taxes-dance.loca.lt`).
 - A new tab will open, prompting you to enter your token.
 
-### Step 5: Enter the Token
+### Step 4: Enter the Token
 
 Input the token you retrieved earlier (e.g., `34.73.158.238`) into the prompt that appears. Once you enter the token, your Streamlit app will launch directly in the browser.
 
