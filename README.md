@@ -66,6 +66,32 @@ To run this project, you'll need the following Python packages:
 - After training, download a `.zip` file containing the trained model and results.
 - The inference process generates a `.zip` file with processed images and a CSV containing prediction data.
 
+## 🖼️ Application Interface
+
+Below are some screenshots of the Streamlit application showcasing its user-friendly interface and features. These images highlight various functionalities, such as model selection, data augmentation, bounding box adjustments, and inference results.
+
+*Model Selection Interface*
+
+<p align="middle">
+  <img src="pretrained.png" width="640" />
+  <img src="upload_yaml_folder.png" width="640" />
+  <img src="upload_custom_model.png" width="640" />
+</p>
+
+*Data Augmentation Visualization*
+
+<p align="middle">
+  <img src="data_manipulation_1.png" width="640" />
+  <img src="data_manipulation_2.png" width="640" />
+  <img src="data_manipulation_3.png" width="640" />
+</p>
+
+
+
+
+
+
+
 ## 📚 Documentation
 
 For a detailed demonstration and interactive usage, refer to the [YOLO-Streamlit-Pipeline-Notebook](YOLOMeetsStreamlit.ipynb) Jupyter Notebook.
