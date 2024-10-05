@@ -125,7 +125,9 @@ your url is: https://rotten-taxes-dance.loca.lt
 - **Click on the provided URL** (e.g., `https://rotten-taxes-dance.loca.lt`).
 - A new tab will open, prompting you to enter your token.
 
-[localtunnel](localtunnel_token.png)
+<p align="middle">
+  <img src="localtunnel_token.png" width="640" />
+</p>
 
 ### Step 4: Enter the Token
 
