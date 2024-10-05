@@ -1,6 +1,8 @@
 # YOLO Model Training and Inference Pipeline with Streamlit
 
-Welcome to the **YOLO Model Training and Inference Pipeline**! This project is designed to simplify the training and inference processes of YOLO models using Streamlit, providing a user-friendly interface for both novice and experienced users. This allows users to train YOLO models and obtain inferences from their trained models using an intuitive user interface. This pipeline supports uploading pre-trained models or custom-trained models, handling dataset preparation, and visualizing results efficiently.
+Welcome to the **YOLO Model Training and Inference Pipeline**!
+
+This project is designed to simplify the training and inference processes of YOLO models using Streamlit, providing a user-friendly interface for both novice and experienced users. This allows users to train YOLO models and obtain inferences from their trained models using an intuitive user interface. This pipeline supports uploading pre-trained models or custom-trained models, handling dataset preparation, and visualizing results efficiently.
 
 ## 🚀 Overview
 
