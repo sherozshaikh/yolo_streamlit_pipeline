@@ -11,12 +11,29 @@ This repository contains a Streamlit application that enables users to:
 
 ## 🎯 Key Features
 
-- **Choose Pre-Trained Models**: Select from various YOLOv8 and YOLOv10 models based on your requirements.
-- **Upload Custom Model**: Easily upload your pre-trained model.
-- **Upload Custom Dataset**: Easily upload your dataset in a structured format for training.
-- **Data Augmentation**: Apply real-time transformations to images and visualize changes.
-- **Interactive UI**: Modify bounding box properties and visualize inference results in real-time.
-- **Output Files**: Download results in a .zip format containing processed images and metadata for further analysis.
+- **Choose Pre-Trained Models**: Select from various YOLOv8 and YOLOv10 models based on your requirements:
+  - `yolov8n.pt`: YOLOv8-N (Nano) ~3.2 M Params
+  - `yolov8s.pt`: YOLOv8-S (Small) ~11.2 M Params
+  - `yolov8m.pt`: YOLOv8-M (Medium) ~25.9 M Params
+  - `yolov8l.pt`: YOLOv8-L (Large) ~43.7 M Params
+  - `yolov8x.pt`: YOLOv8-X (Extra-large) ~68.2 M Params
+  - `yolov10n.pt`: YOLOv10-N (Nano) ~2.3 M Params
+  - `yolov10s.pt`: YOLOv10-S (Small) ~7.2 M Params
+  - `yolov10m.pt`: YOLOv10-M (Medium) ~15.4 M Params
+  - `yolov10l.pt`: YOLOv10-L (Large) ~24.4 M Params
+  - `yolov10x.pt`: YOLOv10-X (Extra-large) ~29.5 M Params
+
+- **Upload Custom Model**: Have a pre-trained model in .pt format? Easily upload it for training or inference.
+
+- **Upload Custom Dataset**: Upload your dataset in a structured format, including training, validation, and test images along with their coordinates.
+
+- **Data Augmentation**: Apply real-time transformations to images and visualize changes live on a sample image.
+
+- **Interactive UI**: Modify bounding box properties, such as color, thickness, and label size, and visualize inference results in real time on a sample image.
+
+- **Non-Maximum Suppression (NMS)**: Combine overlapping bounding boxes based on a user-defined threshold during the inference process, ensuring a cleaner and more accurate output.
+
+- **Output Files**: Download results in a .zip format containing processed images with bounding boxes and metadata in a CSV file for further analysis.
 
 ## 📦 Requirements
 
@@ -33,13 +50,14 @@ To run this project, you'll need the following Python packages:
 
 - Upload your dataset as a `.zip` file containing images and their coordinates.
 - Select the pre-trained model or upload your own `.pt` file.
-- Apply Transformations to the images and visualize results on a sample before running on all images.
+- Apply transformations to the images and visualize results on a sample before running them on all images.
 - Choose the number of epochs and start training.
 
 ### Running Inference
 
 - Upload your trained YOLO model and test dataset.
 - Adjust bounding box properties using sliders and visualize results on a sample before running on all images.
+- Select a threshold for Non-Maximum Suppression to combine overlapping bounding boxes during inference.
 
 ## 📄 Output
 
@@ -49,7 +67,6 @@ To run this project, you'll need the following Python packages:
 ## 📚 Documentation
 
 For detailed documentation, usage examples, and additional notes, refer to the .
-
 
 ## 🛠 Usage
 
